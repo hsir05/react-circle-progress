@@ -1,0 +1,17 @@
+.progress {
+    display: inline-block;
+    position: relative;
+    height: 100px;
+    text-align: center;
+}
+.mask {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.svg-wapper{
+    width: 100px;
+    height: 100px;
+    transition: all .3s linear;
+}
